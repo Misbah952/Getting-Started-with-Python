@@ -1,1 +1,11 @@
-Printing Statements in Terminal
+Counting Lines in a .txt file
+
+
+fh = open("romeo.txt", "r")
+
+count = 0
+for line in fh:
+    print(line.strip())
+    count = count + 1
+
+print(count,"Lines")
