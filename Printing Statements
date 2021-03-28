@@ -1,0 +1,5 @@
+Printing Two Statements in Python
+
+
+print("Welcome to Python for Everybody")
+print("\t\tCourera")
